@@ -1,0 +1,49 @@
+body{
+
+  background-color: rgb(250, 28, 28);
+background-image: url(tree.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+margin: 20p;
+padding: 0;
+height: 100vh;
+
+overflow: hidden;
+
+}
+
+ul{display: flex;}
+li a{ color: rgb(253, 251, 252);
+  text-decoration: none;
+}
+li a:active{color: brown;}
+li a:hover{color: brown
+  ;}
+
+li a :visited{background-color: brown;}
+li{
+color: white;
+padding-right: 20px;
+font-size: medium;
+list-style: none;
+
+}
+.form-control_me-2{
+  border: 3px solid;
+  margin-right: 9px; 
+  color: wheat;
+  border-radius: 10px;
+
+}
+.texthome{display: flex; margin-top: 20px;}
+
+.text{
+      font-style: normal;
+      margin-top: 30px;
+      text-align: left;
+      /* border-right-style:dotted;
+      border-color: rgb(243, 66, 140); */
+      font-size: 20px;
+}
